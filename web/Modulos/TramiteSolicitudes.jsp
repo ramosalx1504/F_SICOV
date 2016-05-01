@@ -124,7 +124,7 @@
                                      </div>
                                     <%}%>
                                
-<footer class="footer"><div class="container"><div class="footer-control"><p class="footer-text">Sistema de Gestión Vehicular SICOV, Solicitud de servicio de Transporte 6F36</p></div></div></footer>                                  
+     <footer class="footer"><div class="container"><div class="footer-control"><p class="footer-text">Sistema de Gestión Vehicular SICOV, Solicitud de servicio de Transporte 6F36</p></div></div></footer>                                  
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>
