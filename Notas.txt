@@ -1,0 +1,15 @@
+datapiker solo años
+
+<script>$('#year').datetimepicker({ 
+                                       viewMode: "years",
+                                       format: "YYYY"
+});</script>
+
+data piker solo fecha 
+
+<script>$('#fins').datetimepicker({ 
+                                                                        format: "DD/MM/YYYY"
+                                                                });</script>
+
+
+ejemplos en https://eonasdan.github.io/bootstrap-datetimepicker/

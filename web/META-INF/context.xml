@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/F_SICOV">
+    <Resource
+    name="jdbc/sql2012"
+    auth="Container"
+    type="javax.sql.DataSource"
+    maxActive="100"
+    maxIdle="30"
+    maxWait="10000"
+    driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    url="jdbc:sqlserver://localhost\SQLEXPRESS:1433;databaseName=SICOV"
+    username="alex_sicov"
+    password="root123"
+    />
+</Context>
