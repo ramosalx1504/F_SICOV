@@ -52,7 +52,6 @@ hr{height:1px;background-color:#00ADEE;margin-top:20px;margin-bottom:20px;width:
    margin-bottom: 20px;
 }
 
-////////////////////////////////////////////////////
   nav.sidebar{
     -webkit-transition: margin 200ms ease-out;
       -moz-transition: margin 200ms ease-out;
@@ -132,7 +131,6 @@ hr{height:1px;background-color:#00ADEE;margin-top:20px;margin-bottom:20px;width:
     text-decoration: none !important;
 }
 
-//switch box
 
 .material-switch > input[type="checkbox"] {
     display: none !important;   
