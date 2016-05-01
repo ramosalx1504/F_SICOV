@@ -54,6 +54,6 @@
         <div class="container">
             <%= request.getAttribute("error") == null ? "" : request.getAttribute("error") %>
         </div>
-        <p>Alex Gae</p>  
+        <p>KEvin es una loca</p>  
     </body>
 </html>
