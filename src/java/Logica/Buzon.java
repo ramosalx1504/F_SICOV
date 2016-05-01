@@ -38,7 +38,7 @@ public class Buzon extends HttpServlet {
          switch(request.getParameter("trace"))
         {
              case "show": { resultado = getSolicitud_Modal(request.getParameter("id")); request.setAttribute("trace","show"); break;}
-             case "tramite": { resultado = "tramite"; request.setAttribute("trace","tramite"); break;}
+             case "tramitar": { resultado = "tramitar"; request.setAttribute("trace","tramitar"); break;}
              case "denegar": { Denegar_Solicitud(request.getParameter("id")); request.setAttribute("trace","success"); break;}
              default : { resultado = "Acción no válida!"; request.setAttribute("trace","default"); break; }
         }

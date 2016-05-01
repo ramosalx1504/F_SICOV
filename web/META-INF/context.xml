@@ -9,7 +9,7 @@
     maxWait="10000"
     driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
     url="jdbc:sqlserver://localhost\SQLEXPRESS:1433;databaseName=SICOV"
-    username="alex_sicov"
-    password="root123"
+    username="kevin_sicov"
+    password="root"
     />
 </Context>

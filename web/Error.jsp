@@ -53,7 +53,6 @@
         </header>
         <div class="container">
             <%= request.getAttribute("error") == null ? "" : request.getAttribute("error") %>
-        </div>
-        <p>KEvin es una loca</p>  
+        </div> 
     </body>
 </html>

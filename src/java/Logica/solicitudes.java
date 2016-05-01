@@ -44,10 +44,13 @@ public class solicitudes extends HttpServlet {
         switch(request.getParameter("code"))
         {
             
+            
             case "6" :{request.setAttribute("listaBuzon", Solicitudes_buzon() );
             request.getRequestDispatcher("/Modulos/Buzon_Solicitudes.jsp").forward(request, response);
             break;}
+            
             case "7" :{request.setAttribute("resultado", resultado);break;}
+            
             default  :{ request.setAttribute("listaBuzon", Solicitudes_buzon() );
             request.getRequestDispatcher("/Modulos/Buzon_Solicitudes.jsp").forward(request, response);break;}    
         }
